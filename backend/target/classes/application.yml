@@ -1,0 +1,79 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/interiorcolab
+    username: postgres
+    password: "Pr@veen12"
+    driver-class-name: org.postgresql.Driver
+
+  mail:
+    host: smtp.freesmtpservers.com
+    port: 25
+    properties:
+      mail:
+        smtp:
+          auth: false
+          starttls:
+            enable: false
+          debug: true
+          connectiontimeout: 10000
+          timeout: 10000
+          writetimeout: 10000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+app:
+  jwt:
+    secret: "vGh7kP9mXsL2wN4qR8tY6uZ0aB3cD5eF1hJ7kM9nP2rS4tV6wX8yA0bC3dE5fG"
+    expiration-ms: 86400000       # 24 hours
+    refresh-expiration-ms: 604800000  # 7 days
+  encryption:
+    key: "6f8b9e2d5c4a1b3f7e8a9b0c1d2e3f4a" # 32 chars for AES-256
+
+  upload:
+    dir: ./uploads
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+# Actuator - Health & Performance Metrics
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,env,httptrace
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: NestLnk Backend
+    version: 1.0.0
+    description: Interior Colab API

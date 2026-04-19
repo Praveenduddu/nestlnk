@@ -1,0 +1,92 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.interiorcolab:nest-lnk-backend[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding NestLnk Backend 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.3:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mnest-lnk-backend[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mnest-lnk-backend[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mnest-lnk-backend[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mnest-lnk-backend[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mnest-lnk-backend[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.3:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mnest-lnk-backend[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.3:run[m [1m(default-cli)[m @ [36mnest-lnk-backend[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-22T01:17:30.373+05:30  INFO 319780 --- [           main] c.i.InteriorColabApplication             : Starting InteriorColabApplication using Java 21.0.10 with PID 319780 (/home/praveen/Documents/projects/Interior Colab/backend/target/classes started by praveen in /home/praveen/Documents/projects/Interior Colab/backend)
+2026-03-22T01:17:30.376+05:30  INFO 319780 --- [           main] c.i.InteriorColabApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-03-22T01:17:31.850+05:30  INFO 319780 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-22T01:17:32.162+05:30  INFO 319780 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 293 ms. Found 6 JPA repository interfaces.
+2026-03-22T01:17:33.291+05:30  INFO 319780 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-22T01:17:33.308+05:30  INFO 319780 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-22T01:17:33.308+05:30  INFO 319780 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-22T01:17:33.400+05:30  INFO 319780 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-22T01:17:33.402+05:30  INFO 319780 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2985 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2026-03-22T01:17:33.656+05:30  INFO 319780 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-22T01:17:33.807+05:30  INFO 319780 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1851c7d2
+2026-03-22T01:17:33.811+05:30  INFO 319780 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-22T01:17:34.049+05:30  INFO 319780 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-22T01:17:34.105+05:30  INFO 319780 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-22T01:17:34.144+05:30  INFO 319780 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-22T01:17:34.382+05:30  INFO 319780 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-22T01:17:34.462+05:30  WARN 319780 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-22T01:17:35.616+05:30  INFO 319780 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-22T01:17:35.835+05:30  INFO 319780 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-22T01:17:36.638+05:30  INFO 319780 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-22T01:17:37.657+05:30  WARN 319780 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-22T01:17:38.576+05:30  INFO 319780 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2026-03-22T01:17:38.715+05:30  INFO 319780 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5816fd13, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fe275d8, org.springframework.security.web.context.SecurityContextHolderFilter@5d18255a, org.springframework.security.web.header.HeaderWriterFilter@62a1bc26, org.springframework.web.filter.CorsFilter@52c0c594, org.springframework.security.web.authentication.logout.LogoutFilter@2c6ee031, com.interiorcolab.security.JwtAuthenticationFilter@3a5244a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@306cb0a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60e06e7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@370d49d1, org.springframework.security.web.session.SessionManagementFilter@f11fad9, org.springframework.security.web.access.ExceptionTranslationFilter@50ea4eaa, org.springframework.security.web.access.intercept.AuthorizationFilter@64d691b2]
+2026-03-22T01:17:39.527+05:30  INFO 319780 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-22T01:17:39.545+05:30  INFO 319780 --- [           main] c.i.InteriorColabApplication             : Started InteriorColabApplication in 9.593 seconds (process running for 10.029)
+2026-03-22T01:18:04.900+05:30  INFO 319780 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-22T01:18:04.925+05:30  INFO 319780 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-22T01:18:04.931+05:30  INFO 319780 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-03-22T01:18:11.582+05:30  INFO 319780 --- [nio-8080-exec-5] c.i.controller.PropertyController        : Starting AI stream for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1 by user ravidhulupudi6060@gmail.com
+2026-03-22T01:18:11.790+05:30  INFO 319780 --- [       Thread-1] c.i.service.AIComparisonService          : Building context for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1...
+2026-03-22T01:18:11.797+05:30  INFO 319780 --- [       Thread-1] c.i.service.AIComparisonService          : Starting Gemini Stream...
+2026-03-22T01:18:12.344+05:30  INFO 319780 --- [       Thread-1] c.i.service.AIComparisonService          : Calling Google GenAI Stream SDK (gemini-flash-latest)...
+2026-03-22T01:18:24.772+05:30  INFO 319780 --- [       Thread-1] c.i.service.AIComparisonService          : Google GenAI SDK Stream completed.
+2026-03-22T01:18:24.800+05:30  INFO 319780 --- [       Thread-1] c.i.controller.PropertyController        : AI stream completed successfully for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1
+2026-03-22T01:23:23.643+05:30  INFO 319780 --- [nio-8080-exec-6] c.i.controller.PropertyController        : Starting AI stream for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1 by user ravidhulupudi6060@gmail.com
+2026-03-22T01:23:23.654+05:30  INFO 319780 --- [       Thread-2] c.i.service.AIComparisonService          : Building context for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1...
+2026-03-22T01:23:23.661+05:30  INFO 319780 --- [       Thread-2] c.i.service.AIComparisonService          : Starting Gemini Stream...
+2026-03-22T01:23:23.662+05:30  INFO 319780 --- [       Thread-2] c.i.service.AIComparisonService          : Calling Google GenAI Stream SDK (gemini-flash-latest)...
+2026-03-22T01:23:31.484+05:30  INFO 319780 --- [       Thread-2] c.i.service.AIComparisonService          : Google GenAI SDK Stream completed.
+2026-03-22T01:23:31.485+05:30  INFO 319780 --- [       Thread-2] c.i.controller.PropertyController        : AI stream completed successfully for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1
+2026-03-22T01:24:10.478+05:30  INFO 319780 --- [nio-8080-exec-9] c.i.controller.PropertyController        : Starting AI stream for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1 by user ravidhulupudi6060@gmail.com
+2026-03-22T01:24:10.482+05:30  INFO 319780 --- [       Thread-3] c.i.service.AIComparisonService          : Building context for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1...
+2026-03-22T01:24:10.489+05:30  INFO 319780 --- [       Thread-3] c.i.service.AIComparisonService          : Starting Gemini Stream...
+2026-03-22T01:24:10.490+05:30  INFO 319780 --- [       Thread-3] c.i.service.AIComparisonService          : Calling Google GenAI Stream SDK (gemini-flash-latest)...
+2026-03-22T01:24:20.008+05:30  INFO 319780 --- [       Thread-3] c.i.service.AIComparisonService          : Google GenAI SDK Stream completed.
+2026-03-22T01:24:20.008+05:30  INFO 319780 --- [       Thread-3] c.i.controller.PropertyController        : AI stream completed successfully for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1
+2026-03-22T01:27:47.874+05:30  INFO 319780 --- [nio-8080-exec-1] c.i.controller.PropertyController        : Starting AI stream for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1 by user ravidhulupudi6060@gmail.com
+2026-03-22T01:27:47.880+05:30  INFO 319780 --- [       Thread-4] c.i.service.AIComparisonService          : Building context for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1...
+2026-03-22T01:27:47.886+05:30  INFO 319780 --- [       Thread-4] c.i.service.AIComparisonService          : Starting Gemini Stream...
+2026-03-22T01:27:47.887+05:30  INFO 319780 --- [       Thread-4] c.i.service.AIComparisonService          : Calling Google GenAI Stream SDK (gemini-flash-latest)...
+2026-03-22T01:27:56.357+05:30  INFO 319780 --- [       Thread-4] c.i.service.AIComparisonService          : Google GenAI SDK Stream completed.
+2026-03-22T01:27:56.358+05:30  INFO 319780 --- [       Thread-4] c.i.controller.PropertyController        : AI stream completed successfully for property 4a2183bf-88ab-4e28-a4ff-e09af3c3d8e1
+2026-03-22T01:35:22.230+05:30  INFO 319780 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-22T01:35:22.470+05:30  INFO 319780 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-22T01:35:22.483+05:30  INFO 319780 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
